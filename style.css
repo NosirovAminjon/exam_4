@@ -432,6 +432,20 @@ span {
 .ki{
     padding-left: 20px;
 }
+.sec9{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.b{
+    color: #1178B2;
+
+}
+.bo{
+    font-size: 20px;
+}
+
 
 
 
@@ -638,6 +652,17 @@ span {
     }
     .pep{
         flex-direction: column;
+        padding: 20px;
+    }
+    .sec9{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .lf{
+        width: 350px;
+    }
+    .bo{
+        text-align: center;
         padding: 20px;
     }
 
