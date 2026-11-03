@@ -388,6 +388,50 @@ span {
 .ii1{
     padding: 20px 40px;
 }
+.ffil{
+    box-shadow: 3px 15px 15px 15px #F6F6F6;
+    padding: 20px;
+    border-radius: 10px;
+}
+.pep{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+.bor{
+    text-align: center;
+    border-bottom: 1px solid #E3E3E3;
+}
+.an{
+    border-bottom: 1px solid #E3E3E3;
+    padding-left: 20px;
+}
+.la{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+}
+.dl{
+    color: #1178B2;
+}
+.na{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+.na1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.ki{
+    padding-left: 20px;
+}
 
 
 
@@ -591,6 +635,10 @@ span {
     }
     .ii2{
         padding: 50px;
+    }
+    .pep{
+        flex-direction: column;
+        padding: 20px;
     }
 
 }
