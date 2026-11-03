@@ -319,6 +319,7 @@ span {
 
 
 
+
 @media(max-width:500px) {
     .hdr {
         height: 600px;
@@ -458,6 +459,11 @@ span {
         text-align: center;
         display: block;
         gap: 10px;
+    }
+    .nn{
+        text-align: center;
+        padding-left: 50px;
+        padding-bottom: 50px;
     }
 
 }
