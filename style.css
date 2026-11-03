@@ -56,6 +56,39 @@ span{
     padding-top: 130px;
     padding-left: 140px;
 }
+.op{
+    font-size: 50px;
+    color: #1178B2;
+    padding-top: 100px;
+    padding-left: 200px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.uz{
+    background-color: #07AF91;
+    color: white;
+    width: 250px;
+    border: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+.k{
+    color: #1178B2;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+}
+.secc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 100px;
+}
 
 
 
@@ -100,5 +133,24 @@ span{
         width: 250px;
         font-size: 20px;
         margin-top: 50px;
+    }
+    .sec{
+        flex-direction: column-reverse;
+    }
+    .ik{
+        width: 350px;
+    }
+    .d{
+        text-align: center;
+    }
+    .op{
+        font-size: 30px;
+        padding: 0;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .secc{
+        flex-direction: column;
+        
     }
 }
