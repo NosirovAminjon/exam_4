@@ -445,6 +445,18 @@ span {
 .bo{
     font-size: 20px;
 }
+.sec10{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding-top: 50px;
+    width: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 3px 15px 15px 15px #F6F6F6;
+}
 
 
 
@@ -664,6 +676,15 @@ span {
     .bo{
         text-align: center;
         padding: 20px;
+    }
+    .sec10{
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 330px;
+        padding: 10px;
+    }
+    .man{
+        width: 300px;
     }
 
 }
