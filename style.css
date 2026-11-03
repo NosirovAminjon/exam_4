@@ -223,7 +223,8 @@ span {
     justify-content: center;
     gap: 200px;
 }
-.sec4{
+
+.sec4 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,26 +232,31 @@ span {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.as{
+
+.as {
     padding-top: 10px;
     padding-bottom: 20px;
     padding-left: 200px;
     max-width: 1200px;
     margin: 0 auto;
 }
-.km{
+
+.km {
     text-align: center;
     border-radius: 10px;
     padding: 30px;
     box-shadow: 3px 15px 15px 15px #F6F6F6;
 }
-.mk{
+
+.mk {
     padding: 35px;
 }
-.mm{
+
+.mm {
     padding: 33px;
 }
-.ok{
+
+.ok {
     background-color: black;
     color: white;
     text-align: center;
@@ -258,7 +264,8 @@ span {
     padding-bottom: 200px;
     margin-top: 50px;
 }
-.str{
+
+.str {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -268,28 +275,34 @@ span {
     margin: 0 auto;
     border-radius: 10px;
 }
-.pq{
+
+.pq {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.se{
+
+.se {
     color: #1178B2;
 }
-.mn{
+
+.mn {
     color: #1178B2;
 }
-.pq1{
+
+.pq1 {
     padding: 10px 50px;
     max-width: 1200px;
     margin: 0 auto;
     border-radius: 10px;
     border: 1px solid #F6F6F6;
 }
-.pqq{
+
+.pqq {
     margin-top: 50px;
 }
-.no{
+
+.no {
     width: 300px;
     border-radius: 10px;
     border: 0;
@@ -297,11 +310,51 @@ span {
     color: white;
     padding: 20px;
 }
-.nn{
+
+.nn {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 50px;
     padding-right: 100px;
+}
+
+.sec6 {
+    background-image: url(./bg.svg);
+    background-position: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.ot {
+    background-color: #07AF91;
+    color: white;
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 0;
+}
+.sec6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.oww{
+    width: 200px;
+}
+.dt h1{
+    font-size: 50px;
+}
+.dt{
+    color: white;
 }
 
 
@@ -430,40 +483,61 @@ span {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-    .sec4{
+
+    .sec4 {
         flex-direction: column;
         padding: 20px;
     }
-    .km{
+
+    .km {
         display: flex;
         align-items: center;
         gap: 5px;
     }
-    .as{
+
+    .as {
         padding-left: 10px;
         text-align: center;
     }
-    .mm{
+
+    .mm {
         width: 285px;
     }
-    .ok{
+
+    .ok {
         padding: 0;
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    .str{
+
+    .str {
         display: block;
         text-align: center;
     }
-    .pq{
+
+    .pq {
         text-align: center;
         display: block;
         gap: 10px;
     }
-    .nn{
+
+    .nn {
         text-align: center;
         padding-left: 50px;
         padding-bottom: 50px;
+    }
+    .sec6{
+        flex-direction: column;
+    }
+    .sec6{
+        background-size: 3000px;
+        text-align: center;
+    }
+    .oww{
+        width: 150px;
+    }
+    .images{
+        margin-left: -90px;
     }
 
 }
