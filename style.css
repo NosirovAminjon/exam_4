@@ -102,7 +102,34 @@ span{
     gap: 50px;
     padding-top: 50px;
 }
-
+.s{
+    background-image: url(./img2.svg);
+    padding-top: 150px;
+    margin-top: 50px;
+    text-align: center;
+    padding-bottom: 150px;
+    margin-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.kl{
+    background-color: #07AF91;
+    color: white;
+    display: inline-block;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+.o{
+    color: white;
+}
+.pol{
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    background-color: #61B5E4;
+}
 
 
 
@@ -172,5 +199,9 @@ span{
     }
     .odd{
         padding: 30px;
+    }
+    .s{
+        background-position: center;
+        background-size: 2000px;
     }
 }
