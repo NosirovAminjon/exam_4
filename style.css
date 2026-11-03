@@ -477,6 +477,43 @@ span {
 .or{
     text-align: center;
 }
+.ic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.iic{
+        gap: 100px;
+        margin-bottom: 50px;
+        margin-top: 50px;
+        background-color: white;
+}
+.oc{
+    box-shadow: 3px 15px 15px 15px #F6F6F6;
+    border-radius: 10px;
+}
+.oc1{
+    padding: 33px 20px;
+}
+.oc2{
+    padding: 33px 20px;
+}
+.oc3{
+    padding: 25px;
+}
+.oc4{
+    padding: 20px 55px;
+}
+.oc6{
+    padding: 0px 55px;
+}
+.oc7{
+    padding: 25px 20px;
+}
+.oc8{
+    padding: 25px 20px;
+}
 
 
 
@@ -711,6 +748,9 @@ span {
     .orr{
         display: none;
     }
-    
+    .oy{
+        display: none;
+    }
+
 
 }
