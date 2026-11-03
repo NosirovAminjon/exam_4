@@ -458,6 +458,15 @@ span {
     box-shadow: 3px 15px 15px 15px #F6F6F6;
 }
 
+.sec11{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
 
 
 
@@ -685,6 +694,9 @@ span {
     }
     .man{
         width: 300px;
+    }
+    .oe{
+        display: none;
     }
 
 }
