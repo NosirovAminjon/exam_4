@@ -514,6 +514,18 @@ span {
 .oc8{
     padding: 25px 20px;
 }
+.sec14{
+    background-image: url(./img16.svg);
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+.oo{
+    text-align: center;
+    padding-top: 250px;
+    color: white;
+}
 
 
 
@@ -751,6 +763,11 @@ span {
     .oy{
         display: none;
     }
-
+    .sec14{
+        background-size: 2000px;
+    }
+.oo{
+    padding-top: 200px;
+}
 
 }
