@@ -631,8 +631,29 @@ span {
 .lab {
     color: black;
 }
+.ftr{
+    background-image: url(./dub.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 100%;
+    height: 100px;
+}
+.lu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
 
+}
+.kok{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    gap: 100px;
+    color: white;
+    padding-bottom: 40px;
 
+}
 
 
 
@@ -913,6 +934,15 @@ span {
     .wats {
         gap: 0;
 
+    }
+    .lu{
+        display: none;
+    }
+    .ftr{
+        background-position: 100%;
+        background-size: 1500px;
+        margin-bottom: 50px;
+        margin-top: 50px;
     }
 
 }
