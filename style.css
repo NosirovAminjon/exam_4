@@ -336,25 +336,57 @@ span {
     border-radius: 10px;
     border: 0;
 }
-.sec6{
+
+.sec6 {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
 }
-.images{
+
+.images {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.oww{
+
+.oww {
     width: 200px;
 }
-.dt h1{
+
+.dt h1 {
     font-size: 50px;
 }
-.dt{
+
+.dt {
     color: white;
+}
+
+
+.gg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.gg1{
+    display: flex;
+}
+.sec7{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ii{
+    margin-left: 50px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 3px 15px 15px 15px #F6F6F6;
+}
+.ii1{
+    padding: 20px 40px;
 }
 
 
@@ -526,18 +558,39 @@ span {
         padding-left: 50px;
         padding-bottom: 50px;
     }
-    .sec6{
+
+    .sec6 {
         flex-direction: column;
     }
-    .sec6{
+
+    .sec6 {
         background-size: 3000px;
         text-align: center;
     }
-    .oww{
+
+    .oww {
         width: 150px;
     }
-    .images{
+
+    .images {
         margin-left: -90px;
+    }
+
+    .gg{
+        flex-direction: column;
+        margin-left: -150px;
+        gap: 50px;
+    }
+    .gg1{
+        flex-direction: column;
+        margin-left: -150px;
+        gap: 50px;
+    }
+    .ii1{
+        padding: 30px;
+    }
+    .ii2{
+        padding: 50px;
     }
 
 }
