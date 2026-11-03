@@ -89,6 +89,19 @@ span{
     gap: 100px;
     padding-top: 100px;
 }
+.od{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 15px 15px 15px #F6F6F6;
+}
+.sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
 
 
 
@@ -152,5 +165,12 @@ span{
     .secc{
         flex-direction: column;
         
+    }
+    .sec1{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .odd{
+        padding: 30px;
     }
 }
